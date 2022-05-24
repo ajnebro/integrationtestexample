@@ -3,6 +3,9 @@ package org.mps.authentication;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Class implementing the a {@link CredentialStore} using a set
+ */
 public class CredentialStoreSet implements CredentialStore {
 
   private class Pair {
