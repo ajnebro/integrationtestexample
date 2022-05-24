@@ -9,7 +9,7 @@ Integration Test example
     :alt: Test Status
     :target: https://github.com/ajnebro/integrationtestexample/actions/workflows/test.yml
 
-.. image:: https://github.com/ajnebro/integrationtestexample/workflows/integration-test.yml/badge.svg
+.. image:: https://github.com/ajnebro/integrationtestexample/actions/workflows/integration-test.yml/badge.svg
     :alt: Integration Test Status
     :target: https://github.com/ajnebro/integrationtestexample/actions/workflows/integration-test.yml
 
