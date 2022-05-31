@@ -8,7 +8,7 @@ public class UserRegistration {
       CredentialStore credentialStore, CredentialValidator credentialValidator) {
     ValidationStatus status = credentialValidator.validate();
 
-    if (status == ValidationStatus.VALIDATION_OK) {
+    if (status != ValidationStatus.VALIDATION_OK) {
       credentialStore.register(birthDate, passwordString);
     }
   }
