@@ -16,11 +16,11 @@ public class IntegrationTestsIT {
   void userRegistrationTopDownIT() {
     Date date = new Date(2, 3, 2010) ;
     PasswordString passwordString = new PasswordString("adfasf.23r4.") ;
-    CredentialStore credentialStore = Mockito.mock(CredentialStore.class) ;
 
     CredentialValidator credentialValidator = Mockito.mock(CredentialValidator.class) ;
     Mockito.when(credentialValidator.validate()).thenReturn(VALIDATION_OK) ;
 
+    CredentialStore credentialStore = Mockito.mock(CredentialStore.class) ;
     UserRegistration userRegistration = new UserRegistration() ;
     userRegistration.register(date, passwordString, credentialStore, credentialValidator);
 
