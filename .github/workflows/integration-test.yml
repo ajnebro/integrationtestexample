@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Integration tests with Maven
-      run: mvn -B integration-test --file pom.xml
+      run: mvn -B clean integration-test --file pom.xml
